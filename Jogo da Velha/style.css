@@ -1,0 +1,43 @@
+#body {
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  display:inherit;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  padding: 20px;
+}
+
+.linha {
+  display: flex;
+}
+
+.casa {
+  background-color: aquamarine;
+  border: 1px solid;
+  height: 130px;
+  width: 130px;
+  display: flex;
+  justify-content: center;
+}
+
+.simbolo {
+  font-weight: bolder;
+  font-size: xxx-large;
+  color: white;
+}
+
+.textoGanhador {
+  color: red;
+  font-size: 400%;
+  top: 40%;
+  position:absolute;
+  z-index: 999;
+}
